@@ -19,7 +19,8 @@ public class AccountGenerator {
     private static final Logger LOGGER = LoggerFactory.getLogger(AccountGenerator.class);
 
     public static void main(String[] args) {
-        Scanner consoleInput = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner consoleInput = new Scanner(System.in);
 
         System.out.println("Enter username: ");
         String userName = consoleInput.nextLine();
