@@ -17,12 +17,12 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>5.4.5</version>
+            <version>5.4.7</version>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.26</version>
+            <version>42.3.3</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
