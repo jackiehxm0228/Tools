@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.3.7</version>
+            <version>42.3.8</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -35,9 +35,9 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.11.0</version>
                 <configuration>
-                    <release>14</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>
